@@ -2,5 +2,10 @@
     "navigationFallback": {
       "rewrite": "index.html",
       "exclude": ["*.{png,jpg,gif,svg}", "*.css"]
+    },
+    "networking": {
+      "allowedIpRanges": [
+        "10.6.0.0/24"
+      ]
     }
 }
